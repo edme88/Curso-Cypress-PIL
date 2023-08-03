@@ -53,22 +53,40 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
         "https://static.edenentradas.com.ar/sitio/images/logo.gif"
       );
     edenHeader.getImgLogo().should("have.attr", "alt", "EdenEntradas");
-    edenHeader.getImgLogo().should("be.visible")
-      .and("have.prop", "naturalHeight").and("be.greaterThan", 0);
+    edenHeader
+      .getImgLogo()
+      .should("be.visible")
+      .and("have.prop", "naturalHeight")
+      .and("be.greaterThan", 0);
   });
 
   it("Buscador", () => {
     cy.visit("https://www.edenentradas.com.ar/");
     edenHeader.getSearchInput().type("Queen");
     edenHeader.getSearchSuggestion().contains("Queen").click();
-    edenEvent.getEventTitle().should("have.text", 'Experiencia Queen "Champions of the World Tour 23" ')
+    edenEvent
+      .getEventTitle()
+      .should(
+        "have.text",
+        'Experiencia Queen "Champions of the World Tour 23" '
+      );
   });
 
-  it.only("Calendario", () => {
+  it("Calendario", () => {
     cy.visit("https://www.edenentradas.com.ar/");
     const nombresMeses = [
-      "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-      "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio",
+      "Julio",
+      "Agosto",
+      "Septiembre",
+      "Octubre",
+      "Noviembre",
+      "Diciembre",
     ];
     const fechaActual = new Date();
     const mesActual = fechaActual.getMonth();
@@ -81,14 +99,22 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
     cy.log(diaActual); // Por ejemplo, "31"
     edenHome.getCalendarTitle().should("contain.text", nombreMesActual);
     edenHome.getCalendarTitle().should("contain.text", anioActual);
-    
-    edenHome.getCalendar().find('td').each((cuadradoDia, $inx) => {
-      if($inx < diaActual){
-        cy.wrap(cuadradoDia).should("have.class", "ui-datepicker-unselectable ui-state-disabled")
-      }
-    });
-    
+
+    edenHome
+      .getCalendar()
+      .find("td")
+      .each((cuadradoDia, $inx) => {
+        if ($inx < diaActual) {
+          cy.wrap(cuadradoDia).should(
+            "have.class",
+            "ui-datepicker-unselectable ui-state-disabled"
+          );
+        }
+      });
+  });
+
+  it("Buscador Nuevo", () => {
+    cy.visit("https://www.edenentradas.com.ar/");
+    edenHeader.getSearchInput().type("Experiencia");
   });
 });
-
-
