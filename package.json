@@ -1,0 +1,20 @@
+{
+  "name": "nuevo2023-practicaprecurso",
+  "version": "1.0.0",
+  "description": "cypress pre-curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "open"
+  },
+  "keywords": [
+    "cyress"
+  ],
+  "author": "agus",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  },
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  }
+}
