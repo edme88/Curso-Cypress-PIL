@@ -1,14 +1,19 @@
 /// <reference types="cypress" />
+//Forma del PageObject tipo 1
 import EdenHome from "../../Page/edenHome";
 import EdenHeader from "../../Page/edenHeader";
 import EdenEvent from "../../Page/edenEvent";
 const edenHome = new EdenHome();
 const edenHeader = new EdenHeader();
 const edenEvent = new EdenEvent();
+//Forma del PageObject Tipo 2
+const edenSalas = require("../../Page/edenSalas");
 
 describe("Test sobre la página de EDEN ENTRADAS", () => {
+  beforeEach(() => {
+    cy.visit("/");
+  });
   it("Verificar subtitulos", () => {
-    cy.visit("https://www.edenentradas.com.ar/");
     edenHome.getSubTitles().first().should("contain.text", "BUSCAR EVENTO");
     edenHome
       .getSubTitles()
@@ -17,8 +22,6 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
   });
 
   it("Verificar Menu", () => {
-    cy.visit("https://www.edenentradas.com.ar/");
-
     const menuBtn = [
       "HOME",
       "TODOS",
@@ -35,16 +38,13 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
   });
 
   it("Verificar pagina de recitales", () => {
-    const newUrl = "https://www.edenentradas.com.ar/sitio/contenido/recitales";
-
-    cy.visit("https://www.edenentradas.com.ar/");
+    const newUrl = `${Cypress.config().baseUrl}sitio/contenido/recitales`;
     edenHeader.getMenuButtons().contains("RECITALES").click();
     cy.url().should("eq", newUrl);
     cy.url().should("include", "/sitio/contenido/recitales");
   });
 
   it("Logo", () => {
-    cy.visit("https://www.edenentradas.com.ar/");
     edenHeader
       .getImgLogo()
       .should(
@@ -61,7 +61,6 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
   });
 
   it("Buscador", () => {
-    cy.visit("https://www.edenentradas.com.ar/");
     edenHeader.getSearchInput().type("Queen");
     edenHeader.getSearchSuggestion().contains("Queen").click();
     edenEvent
@@ -73,7 +72,6 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
   });
 
   it("Calendario", () => {
-    cy.visit("https://www.edenentradas.com.ar/");
     const nombresMeses = [
       "Enero",
       "Febrero",
@@ -94,9 +92,9 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
     const nombreMesActual = nombresMeses[mesActual];
     const diaActual = fechaActual.getDate();
 
-    cy.log(nombreMesActual); // Por ejemplo, "julio"
+    cy.log(nombreMesActual); // Por ejemplo, "Agosto"
     cy.log(anioActual); // Por ejemplo, "2023"
-    cy.log(diaActual); // Por ejemplo, "31"
+    cy.log(diaActual); // Por ejemplo, "4"
     edenHome.getCalendarTitle().should("contain.text", nombreMesActual);
     edenHome.getCalendarTitle().should("contain.text", anioActual);
 
@@ -109,12 +107,57 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
             "have.class",
             "ui-datepicker-unselectable ui-state-disabled"
           );
+          cy.log(`El día ${$inx} es no seleccionable`);
         }
       });
   });
 
   it("Buscador Nuevo", () => {
-    cy.visit("https://www.edenentradas.com.ar/");
     edenHeader.getSearchInput().type("Experiencia");
+  });
+
+  it("Verificar pagina de Salas", () => {
+    const arrSalas = [
+      "Plaza de La Música",
+      "Sala del Rey",
+      "Refugio Guernica",
+      "Captain Blue XL",
+      "Teatro Cultural Cañada",
+      "Sala Agustín Tosco – Luz y Fuerza - Bº Centro",
+      "Sala de Las Américas",
+      "Studio Theater",
+      "Casa Babylon",
+    ];
+    edenHeader.getMenuButtons().contains("SALAS").click();
+
+    //Validación ITERANDO en ARRAY
+    arrSalas.forEach((titleInArray, $inx) => {
+      cy.log(`Itero en el titulo ${$inx}: ${titleInArray}`);
+      edenSalas.getSalasBlock().eq($inx).should("be.visible");
+      edenSalas.getSalasTitle().eq($inx).should("have.text", titleInArray);
+    });
+
+    //Validación ITERANDO en ELEMENTOS
+    edenSalas.getSalasBlock().each((block, $inx) => {
+      cy.log(`Itero en el elemento ${$inx}: ${block}`);
+      cy.wrap(block).should("be.visible");
+      edenSalas.getSalasTitle().eq($inx).should("have.text", arrSalas[$inx]);
+    });
+  });
+
+  it.only("Verificar salas completo", () => {
+    edenHeader.getMenuButtons().contains("SALAS").click();
+
+    cy.fixture(`salas.json`).then((file) => {
+      //Validación ITERANDO en ELEMENTOS
+      file.forEach((salaData, $inx) => {
+        edenSalas.getSalasBlock().eq($inx).should("be.visible");
+        edenSalas.getSalasTitle().eq($inx).should("have.text", salaData.title);
+        edenSalas
+          .getSalasPuntoDeVenta()
+          .eq($inx)
+          .should("contain.text", salaData.address);
+      });
+    });
   });
 });
