@@ -4,7 +4,9 @@
   "description": "cypress pre-curso",
   "main": "index.js",
   "scripts": {
-    "test": "open"
+    "test": "open",
+    "cypress:run:all": "npx cypress run --e2e --browser chrome --spec cypress/e2e/1-eden",
+    "cypress:open:mobile": "npx cypress open --e2e --browser firefox -e type=mobile"
   },
   "keywords": [
     "cyress"
