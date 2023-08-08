@@ -23,3 +23,36 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+const Ajv = require("ajv");
+const ajv = new Ajv();
+
+Cypress.Commands.add("openWeb", () => {
+  let viewDevice;
+  if (Cypress.env("type") != "mobile") {
+    viewDevice = Cypress.env("viewportdesktop").device;
+  } else {
+    viewDevice = Cypress.env("viewportmobile").device;
+  }
+  cy.log(`**${JSON.stringify(viewDevice)}**`);
+  cy.viewport(viewDevice);
+  cy.visit("/");
+});
+
+Cypress.Commands.add("validarScheme", (schemaJson, servicioJson) => {
+  cy.fixture(`schemas/${schemaJson}.json`).then((schema) => {
+    //cy.log(JSON.stringify(schema));
+    const validate = ajv.compile(schema);
+
+    cy.fixture(`${servicioJson}.json`).then((servJson) => {
+      //cy.log(JSON.stringify(servJson));
+      const data = servJson;
+
+      const valid = validate(data);
+      if (!valid) {
+        cy.log(validate.errors);
+      } else {
+        cy.log(`La respuesta del servicio posee los tipos de datos correctos`);
+      }
+    });
+  });
+});
