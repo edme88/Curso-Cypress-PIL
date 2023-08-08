@@ -6,7 +6,12 @@
   "scripts": {
     "test": "open",
     "cypress:run:all": "npx cypress run --e2e --browser chrome --spec cypress/e2e/1-eden",
+    "cypress:run:regression": "npx cypress run --e2e --browser chrome --env grepTags=@regression --spec cypress/e2e/1-eden/eden.cy.js",
     "cypress:open:mobile": "npx cypress open --e2e --browser firefox -e type=mobile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:edme88/Curso-Cypress-PIL.git"
   },
   "keywords": [
     "cyress"
@@ -14,6 +19,7 @@
   "author": "agus",
   "license": "ISC",
   "dependencies": {
+    "@bahmutov/cy-grep": "^1.9.16",
     "cypress": "^12.17.1"
   },
   "devDependencies": {

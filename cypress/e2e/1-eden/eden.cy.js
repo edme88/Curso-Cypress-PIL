@@ -29,7 +29,7 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
       .should("contain.text", "CALENDARIO DE EVENTOS");
   });
 
-  it("Verificar Menu", () => {
+  it("Verificar Menu", { tags: "@regression" }, () => {
     const menuBtn = [
       "HOME",
       "TODOS",
@@ -45,12 +45,16 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
     });
   });
 
-  it("Verificar pagina de recitales", () => {
-    const newUrl = `${Cypress.config().baseUrl}sitio/contenido/recitales`;
-    edenHeader.getMenuButtons().contains("RECITALES").click();
-    cy.url().should("eq", newUrl);
-    cy.url().should("include", "/sitio/contenido/recitales");
-  });
+  it(
+    "Verificar pagina de recitales",
+    { tags: ["@regression", "@smoke"] },
+    () => {
+      const newUrl = `${Cypress.config().baseUrl}sitio/contenido/recitales`;
+      edenHeader.getMenuButtons().contains("RECITALES").click();
+      cy.url().should("eq", newUrl);
+      cy.url().should("include", "/sitio/contenido/recitales");
+    }
+  );
 
   it("Logo", () => {
     edenHeader
@@ -153,7 +157,7 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
     });
   });
 
-  it.only("Verificar salas completo", () => {
+  it("Verificar salas completo", () => {
     edenHeader.getMenuButtons().contains("SALAS").click();
 
     cy.fixture(`salas.json`).then((file) => {
