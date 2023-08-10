@@ -1,0 +1,54 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "ID",
+            "Nombre",
+            "NombreCorto",
+            "Direccion",
+            "Telefono",
+            "Url",
+            "Observaciones",
+            "Informacion",
+            "Latitud",
+            "Longitud",
+            "Imagen"
+        ],
+        "properties": {
+            "ID": {
+                "type": "integer"
+            },
+            "Nombre": {
+                "type": "string"
+            },
+            "NombreCorto": {
+                "type": "string"
+            },
+            "Direccion": {
+                "type": "string"
+            },
+            "Telefono": {
+                "type": "string"
+            },
+            "Url": {
+                "type": "string"
+            },
+            "Observaciones": {
+                "type": "string"
+            },
+            "Informacion": {
+                "type": "string"
+            },
+            "Latitud": {
+                "type": "number"
+            },
+            "Longitud": {
+                "type": "number"
+            },
+            "Imagen": {
+                "type": "string"
+            }
+        }
+    }
+}

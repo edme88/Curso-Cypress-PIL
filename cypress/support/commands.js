@@ -56,3 +56,14 @@ Cypress.Commands.add("validarScheme", (schemaJson, servicioJson) => {
     });
   });
 });
+
+Cypress.Commands.add("serviceCall", (metodo, urly, fileName, schemaName) => {
+  cy.request({
+    method: metodo,
+    url: urly,
+  }).then((response) => {
+    cy.writeFile(`cypress/fixtures/${fileName}.json`, response.body);
+    expect(response.status).to.eq(200);
+    cy.validarScheme(schemaName, fileName);
+  });
+});
