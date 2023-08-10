@@ -1,13 +1,15 @@
 /// <reference types="cypress" />
 //Forma del PageObject tipo 1
 import EdenHome from "../../Page/edenHome";
-import EdenHeader from "../../Page/edenHeader";
-import EdenEvent from "../../Page/edenEvent";
 const edenHome = new EdenHome();
+import EdenHeader from "../../Page/edenHeader";
 const edenHeader = new EdenHeader();
+import EdenEvent from "../../Page/edenEvent";
 const edenEvent = new EdenEvent();
 //Forma del PageObject Tipo 2
 const edenSalas = require("../../Page/edenSalas");
+//Import del utils
+const utils = require("../../Page/utils");
 
 describe("Test sobre la página de EDEN ENTRADAS", () => {
   beforeEach(() => {
@@ -107,6 +109,26 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
       .find("td")
       .each((cuadradoDia, $inx) => {
         if ($inx < diaActual) {
+          cy.wrap(cuadradoDia).should(
+            "have.class",
+            "ui-datepicker-unselectable ui-state-disabled"
+          );
+          cy.log(`El día ${$inx} es no seleccionable`);
+        }
+      });
+  });
+
+  it.only("Calendario 2", () => {
+    const [dia, mes, anio] = utils.getCompleteDate();
+
+    edenHome.getCalendarTitle().should("contain.text", mes);
+    edenHome.getCalendarTitle().should("contain.text", anio);
+
+    edenHome
+      .getCalendar()
+      .find("td")
+      .each((cuadradoDia, $inx) => {
+        if ($inx < dia) {
           cy.wrap(cuadradoDia).should(
             "have.class",
             "ui-datepicker-unselectable ui-state-disabled"
