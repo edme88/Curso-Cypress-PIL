@@ -18,4 +18,8 @@ describe("Test sobre la página de YVYTU", () => {
   it("Ejemplo de cambio 2", () => {
     cy.log("Ejemplo de test vacio!");
   });
+
+  it.only("Verificar Home", () => {
+    cy.compareSnapshot("home-page");
+  });
 });

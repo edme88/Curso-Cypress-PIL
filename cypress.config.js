@@ -11,6 +11,7 @@ module.exports = defineConfig({
   },
   env: {
     env: { grepFilterSpecs: true, grepOmitFiltered: true },
+    preserveOriginalScreenshot: true,
     viewportmobile: {
       device: "iphone-xr",
     },
@@ -24,6 +25,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       require("cypress-mochawesome-reporter/plugin")(on);
       require("@bahmutov/cy-grep/src/plugin")(config);
+      require("cypress-image-diff-js/dist/plugin")(on, config);
       // IMPORTANT: return the config object
       return config;
     },
