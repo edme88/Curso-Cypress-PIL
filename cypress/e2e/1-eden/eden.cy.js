@@ -1,13 +1,13 @@
 /// <reference types="cypress" />
 //Forma del PageObject tipo 1
-import EdenHome from "../../Page/edenHome";
+import EdenHome from "../../Page/eden/edenHome";
 const edenHome = new EdenHome();
-import EdenHeader from "../../Page/edenHeader";
+import EdenHeader from "../../Page/eden/edenHeader";
 const edenHeader = new EdenHeader();
-import EdenEvent from "../../Page/edenEvent";
+import EdenEvent from "../../Page/eden/edenEvent";
 const edenEvent = new EdenEvent();
 //Forma del PageObject Tipo 2
-const edenSalas = require("../../Page/edenSalas");
+const edenSalas = require("../../Page/eden/edenSalas");
 //Import del utils
 const utils = require("../../Page/utils");
 
@@ -118,7 +118,7 @@ describe("Test sobre la página de EDEN ENTRADAS", () => {
       });
   });
 
-  it.only("Calendario 2", () => {
+  it("Calendario 2", () => {
     const [dia, mes, anio] = utils.getCompleteDate();
 
     edenHome.getCalendarTitle().should("contain.text", mes);
