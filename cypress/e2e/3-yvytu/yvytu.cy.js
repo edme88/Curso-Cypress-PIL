@@ -10,4 +10,8 @@ describe("Test sobre la página de YVYTU", () => {
     cy.get("h1").should("have.text", "Reserva Yvytu");
     cy.get("h2").first().should("have.text", subtitle);
   });
+
+  it("Ejemplo de cambio", () => {
+    cy.log("Ejemplo de test vacio!");
+  });
 });
