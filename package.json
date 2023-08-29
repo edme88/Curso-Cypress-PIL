@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "open",
+    "delete:reports": "del /f /s /q \"cypress/reports\" 1>nul",
     "cypress:run:all": "npx cypress run --e2e --browser chrome --spec cypress/e2e/1-eden",
     "cypress:run:regression": "npx cypress run --e2e --browser chrome --env grepTags=@regression --spec cypress/e2e/1-eden/eden.cy.js",
-    "cypress:open:mobile": "npx cypress open --e2e --browser firefox -e type=mobile"
+    "cypress:open:mobile": "npx cypress open --e2e --browser firefox -e type=mobile",
+    "cypress:run": "npm run delete:reports && npx cypress run --e2e --browser chrome --spec cypress/e2e/1-eden/"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,8 @@
   "dependencies": {
     "@bahmutov/cy-grep": "^1.9.16",
     "ajv": "^8.12.0",
-    "cypress": "^12.17.1"
+    "cypress": "^12.17.1",
+    "cypress-mochawesome-reporter": "^3.5.1"
   },
   "devDependencies": {
     "mysql": "^2.18.1"
