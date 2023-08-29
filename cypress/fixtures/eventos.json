@@ -47,6 +47,52 @@
       "FechaPrimerEspectaculo": "20231027"
     },
     {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/cr24_edenentradas_1000x500-01.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Cosquin Rock 2024",
+      "Fecha": "Sábado 10 y Domingo 11 de Febrero 14hs",
+      "Lugar": "Aerodromo Sta maria de Punilla",
+      "Codigo": "SHOW006276",
+      "Categorias": "[\"todos\",\"FES\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022106",
+          "Fecha": "2024-02-10T14:00:00",
+          "FechaString": "10 de febrero",
+          "DiaString": "10",
+          "MesString": "febrero",
+          "HoraString": "14:00 Hs",
+          "Ciudad": "VALIDO POR 2(DOS) DIAS",
+          "Estadio": "ABONO GENERAL"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20240210"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-08-18 at 09.40.39 (1).jpeg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Fanatic Rock 2024",
+      "Fecha": "Sábado 10 y Domingo 11 de Febrero 18hs",
+      "Lugar": "Aerodromo Sta Maria de Punilla",
+      "Codigo": "SHOW006278",
+      "Categorias": "[\"todos\",\"FES\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022109",
+          "Fecha": "2024-02-10T18:00:00",
+          "FechaString": "10 de febrero",
+          "DiaString": "10",
+          "MesString": "febrero",
+          "HoraString": "18:00 Hs",
+          "Ciudad": "VALIDO PARA 2 DÍAS",
+          "Estadio": "FANATIC ROCK"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20240210"
+    },
+    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/lesluok1.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -103,57 +149,50 @@
       "FechaPrimerEspectaculo": "20231006"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/labarraplazaok.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-07-13 at 10.46.38.jpeg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "La Barra & Dani Guardia",
-      "Fecha": "Jueves 17 de Agosto, Viernes 18 de Agosto , Sábado 19 de Agosto y Domingo 20 de Agosto 23.59hs",
+      "Nombre": "Festival Grl Pwr",
+      "Fecha": "Viernes 15 de Septiembre 17hs",
       "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW005819",
+      "Codigo": "SHOW006254",
       "Categorias": "[\"todos\",\"CUA\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC022096",
-          "Fecha": "2023-08-17T23:59:00",
-          "FechaString": "17 de agosto",
-          "DiaString": "17",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        },
-        {
-          "Codigo": "FUNC022028",
-          "Fecha": "2023-08-18T23:59:00",
-          "FechaString": "18 de agosto",
-          "DiaString": "18",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        },
-        {
-          "Codigo": "FUNC022022",
-          "Fecha": "2023-08-19T23:59:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        },
-        {
-          "Codigo": "FUNC022016",
-          "Fecha": "2023-08-20T23:59:00",
-          "FechaString": "20 de agosto",
-          "DiaString": "20",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
+          "Codigo": "FUNC022030",
+          "Fecha": "2023-09-15T17:00:00",
+          "FechaString": "15 de septiembre",
+          "DiaString": "15",
+          "MesString": "septiembre",
+          "HoraString": "17:00 Hs",
           "Ciudad": "Córdoba",
           "Estadio": "Plaza de la Musica"
         }
       ],
-      "FechaPrimerEspectaculo": "20230817"
+      "FechaPrimerEspectaculo": "20230915"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/grafica morón 2.jpeg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Don Osvaldo ",
+      "Fecha": "Sábado 25 de Noviembre 18hs",
+      "Lugar": "Cancha Auxiliar Estadio Moron",
+      "Codigo": "SHOW006198",
+      "Categorias": "[\"todos\",\"CON\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022127",
+          "Fecha": "2023-11-25T18:00:00",
+          "FechaString": "25 de noviembre",
+          "DiaString": "25",
+          "MesString": "noviembre",
+          "HoraString": "18:00 Hs",
+          "Ciudad": "Bs As",
+          "Estadio": "Cancha Auxiliar Estadio Moron"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20231125"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/divididos-cordoba_1000x500.png",
@@ -179,29 +218,6 @@
       "FechaPrimerEspectaculo": "20231216"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-07-13 at 10.46.38.jpeg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Festival Grl Pwr",
-      "Fecha": "Viernes 15 de Septiembre 17hs",
-      "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW006254",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022030",
-          "Fecha": "2023-09-15T17:00:00",
-          "FechaString": "15 de septiembre",
-          "DiaString": "15",
-          "MesString": "septiembre",
-          "HoraString": "17:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230915"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/100x500 gral.png",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -225,73 +241,27 @@
       "FechaPrimerEspectaculo": "20231129"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/laspelotas_pdlm_1808_lp_eden.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/1000x500 copia (2).jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Las Pelotas",
-      "Fecha": "Viernes 18 de Agosto 21hs",
-      "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW006213",
+      "Nombre": "Luciano Pereyra",
+      "Fecha": "Viernes 15 de Diciembre 21hs",
+      "Lugar": "Estadio Mario A. Kempes",
+      "Codigo": "SHOW005776",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021765",
-          "Fecha": "2023-08-18T21:00:00",
-          "FechaString": "18 de agosto",
-          "DiaString": "18",
-          "MesString": "agosto",
+          "Codigo": "FUNC021914",
+          "Fecha": "2023-12-15T21:00:00",
+          "FechaString": "15 de diciembre",
+          "DiaString": "15",
+          "MesString": "diciembre",
           "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
+          "Estadio": "Mario Alberto Kempes"
         }
       ],
-      "FechaPrimerEspectaculo": "20230818"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/experienciaqueen_1609_sdla_1000x500.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Experiencia Queen \"Champions of the World Tour 23\"",
-      "Fecha": "Sábado 16 de Septiembre 21hs",
-      "Lugar": "Sala de las Americas",
-      "Codigo": "SHOW006236",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021945",
-          "Fecha": "2023-09-16T21:00:00",
-          "FechaString": "16 de septiembre",
-          "DiaString": "16",
-          "MesString": "septiembre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Sala de las Americas"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230916"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/lvp_pdlm_0809_1000x500.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "La Vela Puerca",
-      "Fecha": "Viernes 8 de Septiembre 21hs",
-      "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW005759",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021811",
-          "Fecha": "2023-09-08T21:00:00",
-          "FechaString": "8 de septiembre",
-          "DiaString": "08",
-          "MesString": "septiembre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230908"
+      "FechaPrimerEspectaculo": "20231215"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/jingaok.jpg",
@@ -340,27 +310,27 @@
       "FechaPrimerEspectaculo": "20230910"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/1000x500 copia (2).jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/lvp_pdlm_0809_1000x500.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Luciano Pereyra",
-      "Fecha": "Viernes 15 de Diciembre 21hs",
-      "Lugar": "Estadio Mario A. Kempes",
-      "Codigo": "SHOW005776",
+      "Nombre": "La Vela Puerca",
+      "Fecha": "Viernes 8 de Septiembre 21hs",
+      "Lugar": "Plaza de la Musica",
+      "Codigo": "SHOW005759",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021914",
-          "Fecha": "2023-12-15T21:00:00",
-          "FechaString": "15 de diciembre",
-          "DiaString": "15",
-          "MesString": "diciembre",
+          "Codigo": "FUNC021811",
+          "Fecha": "2023-09-08T21:00:00",
+          "FechaString": "8 de septiembre",
+          "DiaString": "08",
+          "MesString": "septiembre",
           "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
-          "Estadio": "Mario Alberto Kempes"
+          "Estadio": "Plaza de la Musica"
         }
       ],
-      "FechaPrimerEspectaculo": "20231215"
+      "FechaPrimerEspectaculo": "20230908"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/1000x500aitana_pdlm_venta.jpg",
@@ -384,52 +354,6 @@
         }
       ],
       "FechaPrimerEspectaculo": "20231215"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230811elloco.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "El Loco Amato",
-      "Fecha": "Viernes 11 de Agosto 23.59hs",
-      "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW006272",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022094",
-          "Fecha": "2023-08-11T23:59:00",
-          "FechaString": "11 de agosto",
-          "DiaString": "11",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230811"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/el mato 0411 ticketera cordoba.png",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "El Mato a un Policía Motorizado",
-      "Fecha": "Sábado 4 de Noviembre 20hs",
-      "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW005934",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021598",
-          "Fecha": "2023-11-04T21:00:00",
-          "FechaString": "4 de noviembre",
-          "DiaString": "04",
-          "MesString": "noviembre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Plaza de la Musica"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20231104"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230901lauriente.jpg",
@@ -501,96 +425,139 @@
       "FechaPrimerEspectaculo": "20230928"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/udsñ_cba_1000x50.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230909elloco.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Usted Señalemelo",
-      "Fecha": "Sábado 26 de Agosto 20hs",
+      "Nombre": "El Loco Amato",
+      "Fecha": "Sábado 9 de Septiembre 23.59hs",
+      "Lugar": "Forja",
+      "Codigo": "SHOW005872",
+      "Categorias": "[\"todos\",\"CUA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022139",
+          "Fecha": "2023-09-09T23:59:00",
+          "FechaString": "9 de septiembre",
+          "DiaString": "09",
+          "MesString": "septiembre",
+          "HoraString": "23:59 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Forja"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20230909"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/elmatook2.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "El Mato a un Policía Motorizado",
+      "Fecha": "Sábado 4 de Noviembre 20hs",
       "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW006233",
+      "Codigo": "SHOW005934",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021918",
-          "Fecha": "2023-08-26T20:00:00",
-          "FechaString": "26 de agosto",
-          "DiaString": "26",
-          "MesString": "agosto",
-          "HoraString": "20:00 Hs",
+          "Codigo": "FUNC021598",
+          "Fecha": "2023-11-04T21:00:00",
+          "FechaString": "4 de noviembre",
+          "DiaString": "04",
+          "MesString": "noviembre",
+          "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
           "Estadio": "Plaza de la Musica"
         }
       ],
-      "FechaPrimerEspectaculo": "20230826"
+      "FechaPrimerEspectaculo": "20231104"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-06-21 at 11.42.43.jpeg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230909jc.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Don Osvaldo - Corrientes",
-      "Fecha": "Sábado 26 de Agosto 21.30hs",
-      "Lugar": "Playon Boca Unidos",
-      "Codigo": "SHOW006237",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021916",
-          "Fecha": "2023-08-26T21:30:00",
-          "FechaString": "26 de agosto",
-          "DiaString": "26",
-          "MesString": "agosto",
-          "HoraString": "21:30 Hs",
-          "Ciudad": "Corrientes",
-          "Estadio": "Playon Boca Unidos"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230826"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/marabarros_eden-entradas_1608_studiotheatre.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Mara Barros",
-      "Fecha": "Miercoles 16 de Agosto 21hs",
-      "Lugar": "Studio Theater",
-      "Codigo": "SHOW006251",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022007",
-          "Fecha": "2023-08-16T21:00:00",
-          "FechaString": "16 de agosto",
-          "DiaString": "16",
-          "MesString": "agosto",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Studio Theater"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230816"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-08-03 at 06.29.48.jpeg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Q' Lokura",
-      "Fecha": "Domingo 13 de Agosto 23.59hs",
-      "Lugar": "Sala del Rey",
-      "Codigo": "SHOW002151",
+      "Nombre": "Jean Carlos",
+      "Fecha": "Sábado 9 de Septiembre 23.59hs",
+      "Lugar": "Villa Retiro",
+      "Codigo": "SHOW005758",
       "Categorias": "[\"todos\",\"CUA\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC022090",
-          "Fecha": "2023-08-13T23:59:00",
-          "FechaString": "13 de agosto",
-          "DiaString": "13",
-          "MesString": "agosto",
+          "Codigo": "FUNC022125",
+          "Fecha": "2023-09-09T23:59:00",
+          "FechaString": "9 de septiembre",
+          "DiaString": "09",
+          "MesString": "septiembre",
           "HoraString": "23:59 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Villa Retiro"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20230909"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230909pelusa.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "El Rey Pelusa",
+      "Fecha": "Sábado 9 de Septiembre 23.30hs",
+      "Lugar": "Sala del Rey",
+      "Codigo": "SHOW000380",
+      "Categorias": "[\"todos\",\"CUA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022154",
+          "Fecha": "2023-09-09T23:30:00",
+          "FechaString": "9 de septiembre",
+          "DiaString": "09",
+          "MesString": "septiembre",
+          "HoraString": "23:30 Hs",
           "Ciudad": "Córdoba",
           "Estadio": "Sala del Rey"
         }
       ],
-      "FechaPrimerEspectaculo": "20230813"
+      "FechaPrimerEspectaculo": "20230909"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/2023camilo.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Camilo Nicolas - Tranqui Piola",
+      "Fecha": "Viernes 13, Sábado 14 y Domingo 15 de Octubre 22hs",
+      "Lugar": "Teatro del Lago",
+      "Codigo": "SHOW005850",
+      "Categorias": "[\"todos\",\"TEA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022141",
+          "Fecha": "2023-10-13T22:00:00",
+          "FechaString": "13 de octubre",
+          "DiaString": "13",
+          "MesString": "octubre",
+          "HoraString": "22:00 Hs",
+          "Ciudad": "Carlos Paz",
+          "Estadio": "Teatro del Lago"
+        },
+        {
+          "Codigo": "FUNC022142",
+          "Fecha": "2023-10-14T22:00:00",
+          "FechaString": "14 de octubre",
+          "DiaString": "14",
+          "MesString": "octubre",
+          "HoraString": "22:00 Hs",
+          "Ciudad": "Carlos Paz",
+          "Estadio": "Teatro del Lago"
+        },
+        {
+          "Codigo": "FUNC022143",
+          "Fecha": "2023-10-15T22:00:00",
+          "FechaString": "15 de octubre",
+          "DiaString": "15",
+          "MesString": "octubre",
+          "HoraString": "22:00 Hs",
+          "Ciudad": "Carlos Paz",
+          "Estadio": "Teatro del Lago"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20231013"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230922do.jpg",
@@ -616,59 +583,6 @@
       "FechaPrimerEspectaculo": "20230922"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/img-20230511-wa0011.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Gordillo Amigo de lo Ajeno",
-      "Fecha": "Viernes 25 y Sábado 26 de Agosto 21hs",
-      "Lugar": "Sala de las Americas",
-      "Codigo": "SHOW006015",
-      "Categorias": "[\"todos\",\"TEA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021780",
-          "Fecha": "2023-08-25T21:00:00",
-          "FechaString": "25 de agosto",
-          "DiaString": "25",
-          "MesString": "agosto",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Sala de las Americas"
-        },
-        {
-          "Codigo": "FUNC021831",
-          "Fecha": "2023-08-25T23:00:00",
-          "FechaString": "25 de agosto",
-          "DiaString": "25",
-          "MesString": "agosto",
-          "HoraString": "23:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Sala de las Americas"
-        },
-        {
-          "Codigo": "FUNC021832",
-          "Fecha": "2023-08-26T21:00:00",
-          "FechaString": "26 de agosto",
-          "DiaString": "26",
-          "MesString": "agosto",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Sala de las Americas"
-        },
-        {
-          "Codigo": "FUNC021833",
-          "Fecha": "2023-08-26T23:00:00",
-          "FechaString": "26 de agosto",
-          "DiaString": "26",
-          "MesString": "agosto",
-          "HoraString": "23:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Sala de las Americas"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230825"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/male-guinzburg-1811-cc-1000x500.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -692,29 +606,6 @@
       "FechaPrimerEspectaculo": "20231118"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230830elloco.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "El Loco Amato",
-      "Fecha": "Domingo 20 de Agosto 23.59hs",
-      "Lugar": "Deportivo Norte",
-      "Codigo": "SHOW006271",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022092",
-          "Fecha": "2023-08-20T23:59:00",
-          "FechaString": "20 de agosto",
-          "DiaString": "20",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Alta Gracia",
-          "Estadio": "Deportivo Norte"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230820"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/cachobuenaventura_cc_2809_1000x500.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -733,52 +624,6 @@
           "HoraString": "21:00 Hs",
           "Ciudad": "Av. Marcelo T. de Alvear 580",
           "Estadio": "Teatro de la Cañada"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230923"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230819pelusa.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Pelusa",
-      "Fecha": "Sábado 19 de Agosto 23.30hs",
-      "Lugar": "Margarita Disco",
-      "Codigo": "SHOW006110",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022058",
-          "Fecha": "2023-08-19T23:30:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
-          "HoraString": "23:30 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Margarita Disco"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230819"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/opus_eden_estelares_23-9-23.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Estelares",
-      "Fecha": "Sábado 23 de Septiembre 21hs",
-      "Lugar": "Opus Costanera - Rio Cuarto",
-      "Codigo": "SHOW006173",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021985",
-          "Fecha": "2023-09-23T21:00:00",
-          "FechaString": "23 de septiembre",
-          "DiaString": "23",
-          "MesString": "septiembre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Rio Cuarto",
-          "Estadio": "Opus Costanera"
         }
       ],
       "FechaPrimerEspectaculo": "20230923"
@@ -807,96 +652,27 @@
       "FechaPrimerEspectaculo": "20230929"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/rocio quiroz 24 de agosto( 450x900).png",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/opus_eden_estelares_23-9-23.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Rocio Quiroz",
-      "Fecha": "Jueves 24 de Agosto 23.59hs",
-      "Lugar": "El Perla Eventos",
-      "Codigo": "SHOW005864",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022093",
-          "Fecha": "2023-08-24T23:59:00",
-          "FechaString": "24 de agosto",
-          "DiaString": "24",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Villa Nueva",
-          "Estadio": "El Perla Eventos"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230824"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-07-31 at 11.57.33.jpeg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Sabroso",
-      "Fecha": "Sábado 19 de Agosto 23.59hs",
-      "Lugar": "Villa Retiro",
-      "Codigo": "SHOW000061",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022082",
-          "Fecha": "2023-08-19T23:59:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Villa Retiro"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230819"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230819zanonifest.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Zanoni Fest",
-      "Fecha": "Sábado 19 de Agosto 23.30hs",
-      "Lugar": "1915 Eventos Villa Allende",
-      "Codigo": "SHOW005817",
+      "Nombre": "Estelares",
+      "Fecha": "Sábado 23 de Septiembre 21hs",
+      "Lugar": "Opus Costanera - Rio Cuarto",
+      "Codigo": "SHOW006173",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC022059",
-          "Fecha": "2023-08-19T23:00:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
-          "HoraString": "23:00 Hs",
-          "Ciudad": "Villa Allende",
-          "Estadio": "1915 Eventos"
+          "Codigo": "FUNC021985",
+          "Fecha": "2023-09-23T21:00:00",
+          "FechaString": "23 de septiembre",
+          "DiaString": "23",
+          "MesString": "septiembre",
+          "HoraString": "21:00 Hs",
+          "Ciudad": "Rio Cuarto",
+          "Estadio": "Opus Costanera"
         }
       ],
-      "FechaPrimerEspectaculo": "20230819"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-08-07 at 11.57.30 (1).jpeg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "La Barra",
-      "Fecha": "Viernes 11 de Agosto 23.59hs",
-      "Lugar": "Sala del Rey",
-      "Codigo": "SHOW005831",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022098",
-          "Fecha": "2023-08-11T23:59:00",
-          "FechaString": "11 de agosto",
-          "DiaString": "11",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Sala del Rey"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230811"
+      "FechaPrimerEspectaculo": "20230923"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/opus_eden_laspelotas_6-10-23.jpg",
@@ -922,29 +698,6 @@
       "FechaPrimerEspectaculo": "20231006"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/pitifernandez.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Piti Fernandez",
-      "Fecha": "Sábado 14 de Octubre 21hs",
-      "Lugar": "Studio Theater",
-      "Codigo": "SHOW006267",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022083",
-          "Fecha": "2023-10-14T21:00:00",
-          "FechaString": "14 de octubre",
-          "DiaString": "14",
-          "MesString": "octubre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Studio Theater"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20231014"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/sangiaofabregas_cc_1009_1000x500.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -968,119 +721,73 @@
       "FechaPrimerEspectaculo": "20230910"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/cordoba 1000x500.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/pitifernandez.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "El Plan de la Mariposa",
-      "Fecha": "Viernes 11 de Agosto 20hs",
-      "Lugar": "Club Paraguay",
-      "Codigo": "SHOW005966",
+      "Nombre": "Piti Fernandez",
+      "Fecha": "Sábado 14 de Octubre 21hs",
+      "Lugar": "Studio Theater",
+      "Codigo": "SHOW006267",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021897",
-          "Fecha": "2023-08-11T20:00:00",
-          "FechaString": "11 de agosto",
-          "DiaString": "11",
-          "MesString": "agosto",
-          "HoraString": "20:00 Hs",
+          "Codigo": "FUNC022083",
+          "Fecha": "2023-10-14T21:00:00",
+          "FechaString": "14 de octubre",
+          "DiaString": "14",
+          "MesString": "octubre",
+          "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
-          "Estadio": "Club Paraguay"
+          "Estadio": "Studio Theater"
         }
       ],
-      "FechaPrimerEspectaculo": "20230811"
+      "FechaPrimerEspectaculo": "20231014"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230811dc.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230916trula.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Damian Cordoba",
-      "Fecha": "Viernes 11 de Agosto 23.59hs",
-      "Lugar": "Estadio del Centro",
-      "Codigo": "SHOW005751",
+      "Nombre": "Trula mas Alejandro Ceberio & Claudio Toledo",
+      "Fecha": "Sábado 16 de Septiembre 23.59hs",
+      "Lugar": "Las Palmas",
+      "Codigo": "SHOW006282",
       "Categorias": "[\"todos\",\"CUA\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC022099",
-          "Fecha": "2023-08-11T23:59:00",
-          "FechaString": "11 de agosto",
-          "DiaString": "11",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Estadio del Centro"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230811"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/grafica eden (3).jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Noelia Pace La Medium",
-      "Fecha": "Miercoles 11 de Octubre 21.30hs",
-      "Lugar": "Club Banda Norte - Rio Cuarto",
-      "Codigo": "SHOW006244",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021995",
-          "Fecha": "2023-10-11T21:30:00",
-          "FechaString": "11 de octubre",
-          "DiaString": "11",
-          "MesString": "octubre",
-          "HoraString": "21:30 Hs",
-          "Ciudad": "Rio Cuarto",
-          "Estadio": "Club Banda Norte"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20231011"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/elbordo_clubparaguay_1609_1000x500.jpeg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "El Bordo",
-      "Fecha": "Sábado 16 de Septiembre 20hs",
-      "Lugar": "Club Paraguay",
-      "Codigo": "SHOW005938",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021991",
-          "Fecha": "2023-09-16T20:00:00",
+          "Codigo": "FUNC022138",
+          "Fecha": "2023-09-16T23:59:00",
           "FechaString": "16 de septiembre",
           "DiaString": "16",
           "MesString": "septiembre",
-          "HoraString": "20:00 Hs",
+          "HoraString": "23:59 Hs",
           "Ciudad": "Córdoba",
-          "Estadio": "Club Paraguay"
+          "Estadio": "Las Palmas"
         }
       ],
       "FechaPrimerEspectaculo": "20230916"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20231007ardelasangre.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230930pirulo.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Arde La Sangre",
-      "Fecha": "Sábado 7 de Octubre 20hs",
-      "Lugar": "Studio Theater",
-      "Codigo": "SHOW005736",
+      "Nombre": "Pirulo Titanico",
+      "Fecha": "Sábado 30 de Septiembre 21hs",
+      "Lugar": "Teatro Mayo",
+      "Codigo": "SHOW006279",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021992",
-          "Fecha": "2023-10-07T20:00:00",
-          "FechaString": "7 de octubre",
-          "DiaString": "07",
-          "MesString": "octubre",
-          "HoraString": "20:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Studio Theater"
+          "Codigo": "FUNC022120",
+          "Fecha": "2023-09-30T21:00:00",
+          "FechaString": "30 de septiembre",
+          "DiaString": "30",
+          "MesString": "septiembre",
+          "HoraString": "21:00 Hs",
+          "Ciudad": "San Francisco",
+          "Estadio": "Teatro Mayo"
         }
       ],
-      "FechaPrimerEspectaculo": "20231007"
+      "FechaPrimerEspectaculo": "20230930"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/banner edén (1).jpg",
@@ -1116,29 +823,6 @@
       "FechaPrimerEspectaculo": "20230909"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230825penaexodo.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Fiesta del Éxodo Jujeño",
-      "Fecha": "Viernes 25 de Agosto 22hs",
-      "Lugar": "Comedor Universitario",
-      "Codigo": "SHOW006249",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022002",
-          "Fecha": "2023-08-25T22:00:00",
-          "FechaString": "25 de agosto",
-          "DiaString": "25",
-          "MesString": "agosto",
-          "HoraString": "22:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Comedor Universitario"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230825"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230923animal.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -1162,27 +846,96 @@
       "FechaPrimerEspectaculo": "20230923"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230811boxeo.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/elbordo_clubparaguay_1609_1000x500.jpeg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Doble Corona Argentina",
-      "Fecha": "Viernes 11 de Agosto 19hs",
-      "Lugar": "Club Union Electrica",
-      "Codigo": "SHOW006265",
+      "Nombre": "El Bordo",
+      "Fecha": "Sábado 16 de Septiembre 20hs",
+      "Lugar": "Club Paraguay",
+      "Codigo": "SHOW005938",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC022076",
-          "Fecha": "2023-08-11T19:00:00",
-          "FechaString": "11 de agosto",
-          "DiaString": "11",
-          "MesString": "agosto",
-          "HoraString": "19:00 Hs",
+          "Codigo": "FUNC021991",
+          "Fecha": "2023-09-16T20:00:00",
+          "FechaString": "16 de septiembre",
+          "DiaString": "16",
+          "MesString": "septiembre",
+          "HoraString": "20:00 Hs",
           "Ciudad": "Córdoba",
-          "Estadio": "Club Union Electrica"
+          "Estadio": "Club Paraguay"
         }
       ],
-      "FechaPrimerEspectaculo": "20230811"
+      "FechaPrimerEspectaculo": "20230916"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230902dani.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Dani Guardia",
+      "Fecha": "Sábado 02 de Septiembre 23.59hs",
+      "Lugar": "Colono",
+      "Codigo": "SHOW005795",
+      "Categorias": "[\"todos\",\"CUA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022158",
+          "Fecha": "2023-09-02T23:59:00",
+          "FechaString": "2 de septiembre",
+          "DiaString": "02",
+          "MesString": "septiembre",
+          "HoraString": "23:59 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Colono"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20230902"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/grafica eden (3).jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Noelia Pace La Medium",
+      "Fecha": "Miercoles 11 de Octubre 21.30hs",
+      "Lugar": "Club Banda Norte - Rio Cuarto",
+      "Codigo": "SHOW006244",
+      "Categorias": "[\"todos\",\"CON\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021995",
+          "Fecha": "2023-10-11T21:30:00",
+          "FechaString": "11 de octubre",
+          "DiaString": "11",
+          "MesString": "octubre",
+          "HoraString": "21:30 Hs",
+          "Ciudad": "Rio Cuarto",
+          "Estadio": "Club Banda Norte"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20231011"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20231007ardelasangre.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Arde La Sangre",
+      "Fecha": "Sábado 7 de Octubre 20hs",
+      "Lugar": "Studio Theater",
+      "Codigo": "SHOW005736",
+      "Categorias": "[\"todos\",\"CON\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021992",
+          "Fecha": "2023-10-07T20:00:00",
+          "FechaString": "7 de octubre",
+          "DiaString": "07",
+          "MesString": "octubre",
+          "HoraString": "20:00 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Studio Theater"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20231007"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-07-07 at 12.07.55.jpeg",
@@ -1208,153 +961,107 @@
       "FechaPrimerEspectaculo": "20230902"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-07-18 at 10.11.22.jpeg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230909torovidela.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Monada",
-      "Fecha": "Viernes 18 de Agosto 23.59hs",
-      "Lugar": "El Perla Eventos",
-      "Codigo": "SHOW005842",
+      "Nombre": "El Toro Quevedo & Fer Bladys",
+      "Fecha": "Sábado 9 de Septiembre 23hs",
+      "Lugar": "La Soñada Multiespacio",
+      "Codigo": "SHOW006124",
       "Categorias": "[\"todos\",\"CUA\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC022055",
-          "Fecha": "2023-08-18T23:59:00",
-          "FechaString": "18 de agosto",
-          "DiaString": "18",
-          "MesString": "agosto",
+          "Codigo": "FUNC022100",
+          "Fecha": "2023-09-09T23:00:00",
+          "FechaString": "9 de septiembre",
+          "DiaString": "09",
+          "MesString": "septiembre",
+          "HoraString": "23:00 Hs",
+          "Ciudad": "Alta Gracia",
+          "Estadio": "La Soñada Multiespacio"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20230909"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/trula 1 de septiembre (450x900).png",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Trula",
+      "Fecha": "Viernes 1 de Septiembre 23.59hs",
+      "Lugar": "El Perla Eventos",
+      "Codigo": "SHOW006111",
+      "Categorias": "[\"todos\",\"CUA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC022137",
+          "Fecha": "2023-09-01T23:59:00",
+          "FechaString": "1 de septiembre",
+          "DiaString": "01",
+          "MesString": "septiembre",
           "HoraString": "23:59 Hs",
           "Ciudad": "Villa Nueva",
           "Estadio": "El Perla Eventos"
         }
       ],
-      "FechaPrimerEspectaculo": "20230818"
+      "FechaPrimerEspectaculo": "20230901"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-07-18 at 10.10.34.jpeg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20231023rock.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Joyriders Roxette Tribute Band",
-      "Fecha": "Sábado 19 de Agosto 23hs",
-      "Lugar": "El Perla Eventos",
-      "Codigo": "SHOW006258",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022054",
-          "Fecha": "2023-08-19T23:00:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
-          "HoraString": "23:00 Hs",
-          "Ciudad": "Villa Nueva",
-          "Estadio": "El Perla Eventos"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230819"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230819juanterrenal.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Juan Terrenal & Cabezones",
-      "Fecha": "Sábado 19 de Agosto 21hs",
+      "Nombre": "Rock In Studio",
+      "Fecha": "Jueves 26 de Octubre 21hs",
       "Lugar": "Studio Theater",
-      "Codigo": "SHOW006238",
+      "Codigo": "SHOW006281",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021946",
-          "Fecha": "2023-08-19T21:00:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
+          "Codigo": "FUNC022124",
+          "Fecha": "2023-10-26T21:00:00",
+          "FechaString": "26 de octubre",
+          "DiaString": "26",
+          "MesString": "octubre",
           "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
           "Estadio": "Studio Theater"
         }
       ],
-      "FechaPrimerEspectaculo": "20230819"
+      "FechaPrimerEspectaculo": "20231026"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230820voladores.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230914bienarg.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Voladores - Abrefuego - Prana",
-      "Fecha": "Jueves 10 de Agosto 20hs",
-      "Lugar": "Club Paraguay",
-      "Codigo": "SHOW006240",
+      "Nombre": "Somos Bien Argentino",
+      "Fecha": "Jueves 14 de Septiembre 21.30hs",
+      "Lugar": "Teatro Mayo",
+      "Codigo": "SHOW006273",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021950",
-          "Fecha": "2023-08-10T20:00:00",
-          "FechaString": "10 de agosto",
-          "DiaString": "10",
-          "MesString": "agosto",
-          "HoraString": "20:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Club Paraguay"
+          "Codigo": "FUNC022051",
+          "Fecha": "2023-09-14T21:30:00",
+          "FechaString": "14 de septiembre",
+          "DiaString": "14",
+          "MesString": "septiembre",
+          "HoraString": "21:30 Hs",
+          "Ciudad": "San Francisco",
+          "Estadio": "Teatro Mayo"
         }
       ],
-      "FechaPrimerEspectaculo": "20230810"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20230819chebere.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Patronales de Marull con Chebere",
-      "Fecha": "Sábado 19 de Agosto 22hs",
-      "Lugar": "Club Carlos Guido Spano - Marull",
-      "Codigo": "SHOW006010",
-      "Categorias": "[\"todos\",\"CUA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022097",
-          "Fecha": "2023-08-19T22:00:00",
-          "FechaString": "19 de agosto",
-          "DiaString": "19",
-          "MesString": "agosto",
-          "HoraString": "22:00 Hs",
-          "Ciudad": "Marull",
-          "Estadio": "Club Carlos Guido Spano"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230819"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/los herreras 11 de agosto 1(490x900).png",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Los Herrera",
-      "Fecha": "Viernes 11 de Agosto 23.59hs",
-      "Lugar": "El Perla Eventos",
-      "Codigo": "SHOW006264",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC022075",
-          "Fecha": "2023-08-11T23:59:00",
-          "FechaString": "11 de agosto",
-          "DiaString": "11",
-          "MesString": "agosto",
-          "HoraString": "23:59 Hs",
-          "Ciudad": "Villa Nueva",
-          "Estadio": "El Perla Eventos"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20230811"
+      "FechaPrimerEspectaculo": "20230914"
     }
   ],
   "EventosNuevos": [],
   "EventosProximamente": [],
   "TieneEventosNuevos": false,
   "TieneEventosProximamente": false,
-  "RankingImage1": "https://static.edenentradas.com.ar/sitio/shows/100x500 gral.png",
-  "RankingCodigo1": "SHOW006230",
-  "RankingImageTitle1": "David Bisbal",
-  "RankingImageFecha1": "Miercoles 29 de Nov 21hs",
-  "RankingImageLugar1": "Plaza de la Musica",
+  "RankingImage1": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2023-08-18 at 09.40.39 (1).jpeg",
+  "RankingCodigo1": "SHOW006278",
+  "RankingImageTitle1": "Fanatic Rock 2024",
+  "RankingImageFecha1": "Sábado 10 y Domingo 11 de Feb 18hs",
+  "RankingImageLugar1": "Aerodromo Sta Maria de Punilla",
   "RankingImage2": "https://static.edenentradas.com.ar/sitio/shows/banner-eden-cw-kempes-2023-maria-becerra.jpg",
   "RankingCodigo2": "SHOW006256",
   "RankingImageTitle2": "Creepy Halloween / Maria Becerra",
